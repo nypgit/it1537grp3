@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 
 public class DBController {
 	private Connection con;
-	private String dbSource="//localhost:3306/jdaydatabase";
+	private String dbSource="//172.27.176.139:3306/jdaydatabase";
 	private String user="myuser";	  // the username of the sql user
 	private String password="jday";  // your password of the sql user
 	
@@ -90,7 +90,7 @@ public class DBController {
 		try {
 			// step 1
 			con=DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/jdaydatabase","myuser","jday");
+					"jdbc:mysql://172.27.176.139:3306/jdaydatabase","myuser","jday");
 					
 			// step 2
 			stmt=con.createStatement();
