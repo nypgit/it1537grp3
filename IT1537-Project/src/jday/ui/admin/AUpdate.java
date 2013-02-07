@@ -43,7 +43,7 @@ public class AUpdate extends BackgroundPanel {
 		JLabel lblNewLabel = new JLabel("Courses");
 		lblNewLabel.setForeground(Color.BLACK);
 		lblNewLabel.setBorder(new LineBorder(Color.DARK_GRAY, 2));
-		lblNewLabel.setIcon(new ImageIcon(AUpdate.class.getResource("/images/background.png")));
+		lblNewLabel.setIcon(new ImageIcon(AUpdate.class.getResource("/images/adminbg2.png")));
 		lblNewLabel.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -64,7 +64,7 @@ public class AUpdate extends BackgroundPanel {
 		
 		JLabel lblEvents = new JLabel("Events");
 		lblEvents.setBorder(new LineBorder(Color.DARK_GRAY, 2));
-		lblEvents.setIcon(new ImageIcon(AUpdate.class.getResource("/images/background.png")));
+		lblEvents.setIcon(new ImageIcon(AUpdate.class.getResource("/images/adminbg2.png")));
 		lblEvents.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
